@@ -51,7 +51,7 @@ MgrUser.openAddMgr = function () {
     var index = layer.open({
         type: 2,
         title: '添加管理员',
-        area: ['800px', '560px'], //宽高
+        area: ['800px', '450px'], //宽高
         fix: false, //不固定
         maxmin: true,
         content: Feng.ctxPath + '/mgr/user_add'
@@ -159,7 +159,7 @@ MgrUser.unfreeze = function () {
 MgrUser.resetPwd = function () {
     if (this.check()) {
         var userId = this.seItem.id;
-        parent.layer.confirm('是否重置密码为111111？', {
+        parent.layer.confirm('是否重置密码为123456？', {
             btn: ['确定', '取消'],
             shade: false //不显示遮罩
         }, function () {
@@ -176,9 +176,8 @@ MgrUser.resetPwd = function () {
 
 MgrUser.resetSearch = function () {
     $("#name").val("");
-    $("#beginTime").val("");
-    $("#endTime").val("");
-
+//    $("#beginTime").val("");
+//    $("#endTime").val("");
     MgrUser.search();
 }
 
@@ -187,8 +186,8 @@ MgrUser.search = function () {
 
     queryData['deptid'] = MgrUser.deptid;
     queryData['name'] = $("#name").val();
-    queryData['beginTime'] = $("#beginTime").val();
-    queryData['endTime'] = $("#endTime").val();
+//    queryData['beginTime'] = $("#beginTime").val();
+//    queryData['endTime'] = $("#endTime").val();
 
     MgrUser.table.refresh({query: queryData});
 }

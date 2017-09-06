@@ -2,7 +2,7 @@
 ##################  所有profile共有的配置  #################
 ##########################################################
 
-###################  guns配置  ###################
+###################  bms配置  ###################
 guns:
   swagger-open: true #是否开启swagger (true/false)
   kaptcha-open: false #是否开启登录时验证码 (true/false)
@@ -52,8 +52,8 @@ spring:
 
 ###################  mybatis-plus配置  ###################
 mybatis-plus:
-  mapper-locations: classpath*:com/stylefeng/guns/**/mapping/*.xml
-  typeAliasesPackage: com.stylefeng.guns.common.persistence.model
+  mapper-locations: classpath*:com/youbang/**/mapping/*.xml
+  typeAliasesPackage: com.youbang.common.persistence.model
   global-config:
     id-type: 0  #0:数据库ID自增   1:用户输入id  2:全局唯一id(IdWorker)  3:全局唯一ID(uuid)
     db-column-underline: false
@@ -68,7 +68,7 @@ mybatis-plus:
 ---
 
 ##########################################################
-###################  开发环境的profile  ###################
+###################1qaz!QAZ  开发环境的profile  106.14.13.180 lihao###################
 ##########################################################
 spring:
   profiles: dev
@@ -87,9 +87,9 @@ biz:
 
 logging:
   level.root: info
-  level.com.stylefeng: debug
+  level.com.youbang: debug
   path: logs/
-  file: guns.log
+  file: bms.log
 
 ---
 
@@ -107,5 +107,5 @@ spring:
 logging:
   level.root: warn
   path: logs/
-  file: guns.log
+  file: bms.log
 

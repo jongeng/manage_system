@@ -7,8 +7,8 @@ import ${import};
 /**
  * ${context.bizChName}Dao
  *
- * @author fengshuonan
- * @Date ${tool.currentTime()}
+ * @author jon
+ * @date 2017-07-20
  */
 @Service
 public class ${context.bizEnBigName}ServiceImpl implements I${context.bizEnBigName}Service {

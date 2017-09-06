@@ -33,7 +33,7 @@ var UserInfoDlg = {
                 identical: {
                     field: 'rePassword',
                     message: '两次密码不一致'
-                },
+                }
             }
         },
         rePassword: {
@@ -44,7 +44,7 @@ var UserInfoDlg = {
                 identical: {
                     field: 'password',
                     message: '两次密码不一致'
-                },
+                }
             }
         }
     }

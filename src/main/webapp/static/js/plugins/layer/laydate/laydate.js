@@ -2,7 +2,7 @@
 
  @Name : layDate v1.1 日期控件
  @Author: 贤心
- @Date: 2014-06-25
+ @date 2017-07-20
  @QQ群：176047195
  @Site：http://sentsin.com/layui/laydate
 

@@ -7,8 +7,8 @@ import ${import};
 /**
  * ${context.bizChName}控制器
  *
- * @author fengshuonan
- * @Date ${tool.currentTime()}
+ * @author jon
+ * @date 2017-07-20
  */
 @Controller
 @RequestMapping("/${context.bizEnName}")

@@ -38,7 +38,7 @@ Role.check = function () {
 };
 
 /**
- * 点击添加管理员
+ * 点击添加角色
  */
 Role.openAddRole = function () {
     var index = layer.open({

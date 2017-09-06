@@ -2,7 +2,7 @@
 
  @Name: layui WebIM 1.0.0
  @Author：贤心
- @Date: 2014-04-25
+ @date 2017-07-20
  @Blog: http://sentsin.com
 
  */

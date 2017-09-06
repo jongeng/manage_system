@@ -3,8 +3,8 @@ package ${service.packageName};
 /**
  * ${context.bizChName}Service
  *
- * @author fengshuonan
- * @Date ${tool.currentTime()}
+ * @author jon
+ * @date 2017-07-20
  */
 public interface I${context.bizEnBigName}Service {
 

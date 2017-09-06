@@ -18,8 +18,8 @@ import java.util.Map;
  * mybatis-plus代码生成器(用于生成entity)<br>
  * 注意:<br>
  *     因为没用mybatis-plus的Service和Controller所以生成完之后要删掉TTT目录
- * @author stylefeng
- * @Date 2017/5/21 12:38
+ * @author jon
+ * @date 2017-07-20
  */
 public class MyBatisPlusGenerator {
 
@@ -34,7 +34,7 @@ public class MyBatisPlusGenerator {
         gc.setEnableCache(false);// XML 二级缓存
         gc.setBaseResultMap(true);// XML ResultMap
         gc.setBaseColumnList(false);// XML columList
-        gc.setAuthor("stylefeng");
+        gc.setAuthor("youbang");
         mpg.setGlobalConfig(gc);
 
         // 数据源配置
@@ -62,9 +62,9 @@ public class MyBatisPlusGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
         pc.setParent(null);
-        pc.setEntity("com.stylefeng.guns.common.persistence.model");
-        pc.setMapper("com.stylefeng.guns.common.persistence.dao");
-        pc.setXml("com.stylefeng.guns.common.persistence.dao.mapping");
+        pc.setEntity("com.youbang.common.persistence.model");
+        pc.setMapper("com.youbang.common.persistence.dao");
+        pc.setXml("com.youbang.common.persistence.dao.mapping");
         pc.setService("TTT");       //本项目没用，生成之后删掉
         pc.setServiceImpl("TTT");   //本项目没用，生成之后删掉
         pc.setController("TTT");    //本项目没用，生成之后删掉
